@@ -210,3 +210,171 @@ Open repository: /var/www/1_experiments/yajra-demo-app
 > git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/index.blade.php
 > git show :app/Http/Controllers/IndexController.php
 > git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/app/Http/Controllers/IndexController.php
+> git status -z -u
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/app/Http/Controllers/IndexController.php
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git cat-file -s ec40d5f3e2a08b97f060dfa22d5d0662f84021df
+> git rev-parse --symbolic-full-name master@{u}
+> git show :app/Http/Controllers/IndexController.php
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /var/www/1_experiments/yajra-demo-app/app/Http/Controllers/IndexController.php
+> git show :composer.json
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/composer.json
+> git cat-file -s cbfb448490ae1dee0a0bddcb674a74060c0d7d53
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :database/seeds/DatabaseSeeder.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/database/seeds/DatabaseSeeder.php
+> git cat-file -s fe82a43b1e1e555146cf774c87d57e7e86ce2140
+> git check-ignore -v -z --stdin
+> git show :.env
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/.env
+> git show :app/Http/Controllers/IndexController.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/app/Http/Controllers/IndexController.php
+> git cat-file -s ec40d5f3e2a08b97f060dfa22d5d0662f84021df
+> git show :database/seeds/EmployeesTableSeeder.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/database/seeds/EmployeesTableSeeder.php
+> git cat-file -s d280ab5e41e67c854a6a0bdd50518f003c664304
+> git show :resources/views/index.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/index.blade.php
+> git cat-file -s 9a704863a48de21cec23b9593b71409564364256
+> git check-ignore -v -z --stdin
+> git show :resources/views/layouts/master.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/layouts/master.blade.php
+> git check-ignore -v -z --stdin
+> git show :resources/views/index.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/index.blade.php
+> git cat-file -s 9a704863a48de21cec23b9593b71409564364256
+> git show :resources/views/layouts/master.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/layouts/master.blade.php
+> git show :resources/views/index.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/index.blade.php
+> git cat-file -s 9a704863a48de21cec23b9593b71409564364256
+> git show :resources/views/layouts/master.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/layouts/master.blade.php
+> git show :resources/views/index.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/index.blade.php
+> git cat-file -s 9a704863a48de21cec23b9593b71409564364256
+> git show :resources/views/layouts/master.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/layouts/master.blade.php
+> git show :resources/views/index.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/index.blade.php
+> git cat-file -s 9a704863a48de21cec23b9593b71409564364256
+> git show :resources/views/employees-paginate.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/employees-paginate.blade.php
+> git check-ignore -v -z --stdin
+> git show :resources/views/layouts/master.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/layouts/master.blade.php
+> git show :routes/web.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/routes/web.php
+> git cat-file -s 15ec422a0ea44027a496c83f1e813e886736d56a
+> git show :app/Http/Controllers/Controller.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/app/Http/Controllers/Controller.php
+> git cat-file -s a0a2a8a34a6221e4dceb24a759ed14e911f74c57
+> git show :app/Http/Controllers/IndexController.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/app/Http/Controllers/IndexController.php
+> git cat-file -s ec40d5f3e2a08b97f060dfa22d5d0662f84021df
+> git show :app/Http/Controllers/EmployeeController.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/app/Http/Controllers/EmployeeController.php
+> git cat-file -s bf33711e60ee482f35b3c9e79ac5b06d16f4ba9b
+> git show :app/Http/Controllers/IndexController.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/app/Http/Controllers/IndexController.php
+> git cat-file -s ec40d5f3e2a08b97f060dfa22d5d0662f84021df
+> git show :resources/views/employees-paginate.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/employees-paginate.blade.php
+> git show :resources/views/layouts/master.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/layouts/master.blade.php
+> git show :app/Http/Controllers/IndexController.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/app/Http/Controllers/IndexController.php
+> git cat-file -s ec40d5f3e2a08b97f060dfa22d5d0662f84021df
+> git show :resources/views/layouts/master.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/layouts/master.blade.php
+> git show :resources/views/employees-data-tables.balde.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/employees-data-tables.balde.php
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :app/Http/Controllers/EmployeeController.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/app/Http/Controllers/EmployeeController.php
+> git cat-file -s bf33711e60ee482f35b3c9e79ac5b06d16f4ba9b
+> git show :app/Http/Controllers/IndexController.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/app/Http/Controllers/IndexController.php
+> git cat-file -s ec40d5f3e2a08b97f060dfa22d5d0662f84021df
+> git check-ignore -v -z --stdin
+> git show :routes/web.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/routes/web.php
+> git cat-file -s 15ec422a0ea44027a496c83f1e813e886736d56a
+> git show :app/Http/Controllers/IndexController.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/app/Http/Controllers/IndexController.php
+> git cat-file -s ec40d5f3e2a08b97f060dfa22d5d0662f84021df
+> git check-ignore -v -z --stdin
+> git show :resources/views/employees-paginate.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/employees-paginate.blade.php
+> git show :resources/views/employees-data-tables.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/employees-data-tables.blade.php
+> git show :resources/views/employees-paginate.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/employees-paginate.blade.php
+> git show :resources/views/employees-data-tables.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/employees-data-tables.blade.php
+> git show :resources/views/layouts/master.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/layouts/master.blade.php
+> git show :resources/views/employees-data-tables.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/employees-data-tables.blade.php
+> git show :resources/views/layouts/master.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/layouts/master.blade.php
+> git show :resources/views/employees-data-tables.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/employees-data-tables.blade.php
+> git show :resources/views/employees-paginate.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/employees-paginate.blade.php
+> git show :resources/views/employees-data-tables.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/employees-data-tables.blade.php
+> git show :routes/web.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/routes/web.php
+> git cat-file -s 15ec422a0ea44027a496c83f1e813e886736d56a
+> git show :app/Http/Controllers/IndexController.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/app/Http/Controllers/IndexController.php
+> git cat-file -s ec40d5f3e2a08b97f060dfa22d5d0662f84021df
+> git show :resources/views/employees-data-tables.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/employees-data-tables.blade.php
+> git show :app/Http/Controllers/IndexController.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/app/Http/Controllers/IndexController.php
+> git cat-file -s ec40d5f3e2a08b97f060dfa22d5d0662f84021df
+> git show :resources/views/layouts/master.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/layouts/master.blade.php
+> git show :resources/views/employees-paginate.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/employees-paginate.blade.php
+> git show :resources/views/employees-data-tables.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/employees-data-tables.blade.php
+> git show :resources/views/layouts/master.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/layouts/master.blade.php
+> git show :app/Http/Controllers/IndexController.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/app/Http/Controllers/IndexController.php
+> git cat-file -s ec40d5f3e2a08b97f060dfa22d5d0662f84021df
+> git show :resources/views/employees-data-tables.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/employees-data-tables.blade.php
+> git show :resources/views/layouts/master.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/layouts/master.blade.php
+> git show :resources/views/employees-paginate.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/employees-paginate.blade.php
+> git show :resources/views/employees-data-tables.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/employees-data-tables.blade.php
+> git show :resources/views/layouts/master.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/layouts/master.blade.php
+> git show :resources/views/employees-paginate.blade.php
+> git ls-files --stage -- /var/www/1_experiments/yajra-demo-app/resources/views/employees-paginate.blade.php
