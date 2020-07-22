@@ -1,0 +1,7 @@
+[Info  - 10:50:57 PM] Initialising intelephense 1.5.3
+[Info  - 10:50:57 PM] Initialised in 20 ms
+[Warn  - 10:50:58 PM] file:///var/www/1_experiments/yajra-demo-app/vendor/fzaninotto/faker/src/Faker/Provider/nl_BE/Text.php is over the maximum file size of 1000000 bytes.
+[Info  - 10:50:58 PM] Indexing started.
+[Info  - 10:51:29 PM] Indexing ended. 5756 files indexed in 30s.
+[Info  - 10:51:29 PM] Writing state to /var/www/1_experiments/yajra-demo-app/~/.vscode-root/User/workspaceStorage/41b03254bebb5d31bcb7d88eb894c246/bmewburn.vscode-intelephense-client/4e5ddbd.
+[Info  - 10:51:30 PM] Wrote state in 1.4s.

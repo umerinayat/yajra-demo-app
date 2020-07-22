@@ -1,0 +1,18 @@
+file:///var/www/1_experiments/yajra-demo-app/database/seeds/EmployeesTableSeeder.php {"mtime":1595444705395,"ctime":1595444538491,"size":266,"etag":"35e67m4nn8i","orphaned":false}
+<?php
+
+use Illuminate\Database\Seeder;
+use App\Employee; 
+
+class EmployeesTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        factory( Employee::class, 50 )->create();
+    }
+}
