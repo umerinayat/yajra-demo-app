@@ -10,7 +10,7 @@
         <table class="table mt-4" id="employees-table">
             <thead class="thead-dark">
                 <tr>
-                    <th scope="col">#</th>
+                    <th scope="col">id</th>
                     <th scope="col">First Name</th>
                     <th scope="col">Last Name</th>
                     <th scope="col">Department</th>
@@ -37,11 +37,13 @@
 @push('scripts')
 
 <script>
+    
     // document ready
     $(document).ready(function() {
+       
 
         // init Employees DataTable
-        $('employees-table').DataTable({
+        $('#employees-table').DataTable({
 
                 processing: true,
 
