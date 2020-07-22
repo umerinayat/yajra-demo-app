@@ -33,8 +33,8 @@ class IndexController extends Controller
 
             return DataTables::of( $employees )
                 ->addColumn('action', function ( $emp ) {
-                    $buttons = "<button class='btn btn-sm btn-success edit-employe-btn mr-2 data='$emp->id' id='$emp->id'> Edit </button>";
-                    $buttons .= "<button class='btn btn-sm btn-danger delete-employe-btn data='$emp->id' id='$emp->id'> Delete </button>";
+                    $buttons = "<button class='btn btn-sm btn-success edit-employe-btn mr-2' data='$emp->id' id='$emp->id'> Edit </button>";
+                    $buttons .= "<button class='btn btn-sm btn-danger delete-employe-btn' data='$emp->id' id='$emp->id'> Delete </button>";
                     return $buttons;
                 })
                 ->rawColumns(['action'])
