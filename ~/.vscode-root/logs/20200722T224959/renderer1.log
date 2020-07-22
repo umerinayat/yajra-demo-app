@@ -4,3 +4,21 @@
 [2020-07-22 23:15:37.077] [renderer1] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
 [2020-07-22 23:15:54.006] [renderer1] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
 [2020-07-22 23:15:54.036] [renderer1] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2020-07-23 00:43:43.383] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:420)
+	at new e (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:369)
+	at new e (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:434:44)
+	at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62
+[2020-07-23 01:29:03.913] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:420)
+	at new e (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:447:369)
+	at new e (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:434:44)
+	at asSymbolInformation (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:347:22)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/protocolConverter.js:336:23)
+	at /root/.vscode/extensions/felixfbecker.php-intellisense-2.3.14/node_modules/vscode-languageclient/lib/client.js:1002:62

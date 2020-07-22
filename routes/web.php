@@ -13,9 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'IndexController@employeesDataTable');
+
+Route::get('/model-paginate', 'IndexController@index');
 
 
+// Resources Routes
 Route::resource('employee', 'EmployeeController');
